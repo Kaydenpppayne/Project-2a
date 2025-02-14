@@ -13,7 +13,7 @@ import sys
 # length of the beam
 def Length(bar):
     # find a node of the bar
-    bar_node = bar.int_node
+    bar_node = bar.init_node
     # convert the node and bar to a vector
     vector = BarNodeToVector(bar_node, bar)
     # find the length of the vector
